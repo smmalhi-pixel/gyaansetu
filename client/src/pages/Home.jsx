@@ -6,7 +6,7 @@ import { checkAndAwardBadges, getAllBadges } from '../utils/badges';
 import { getLevelInfo } from '../utils/xp';
 import { getTodayGoal, setGoal, getGoalProgress } from '../utils/goals';
 import { getTodayQuote } from '../utils/quotes';
-import { showToast } from '../utils/toastManager';
+import { showToast } from '../utils/ToastManager';
 import { playSound } from '../utils/sounds';
 import Confetti from '../components/Confetti';
 import { CardSkeleton } from '../components/Skeleton';
