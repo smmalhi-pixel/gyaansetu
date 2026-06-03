@@ -1,0 +1,135 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Subject {
+  id        String    @id @default(cuid())
+  name      String
+  chapters  Chapter[]
+  createdAt DateTime  @default(now())
+}
+
+model Chapter {
+  id             String                @id @default(cuid())
+  title          String
+  subjectId      String
+  subject        Subject               @relation(fields: [subjectId], references: [id])
+  class          Int
+  concepts       Concept[]
+  boardMappings  BoardChapterMapping[]
+}
+
+model Concept {
+  id             String          @id @default(cuid())
+  name           String
+  description    String
+  chapterId      String
+  chapter        Chapter         @relation(fields: [chapterId], references: [id])
+  videoUrl       String?
+  prerequisites  Concept[]       @relation("ConceptPrerequisites")
+  dependedOnBy   Concept[]       @relation("ConceptPrerequisites")
+  questions      Question[]
+  misconceptions Misconception[]
+}
+
+model Misconception {
+  id            String   @id @default(cuid())
+  conceptId     String
+  concept       Concept  @relation(fields: [conceptId], references: [id])
+  wrongPattern  String
+  explanation   String
+  triggerRules  Json     @default("{}")
+}
+
+model Board {
+  id       String                @id @default(cuid())
+  name     String
+  mappings BoardChapterMapping[]
+}
+
+model BoardChapterMapping {
+  id            String          @id @default(cuid())
+  boardId       String
+  board         Board           @relation(fields: [boardId], references: [id])
+  chapterId     String
+  chapter       Chapter         @relation(fields: [chapterId], references: [id])
+  chapterNumber Int
+  term          Int?
+  typicalMonth  Int?
+  questions     BoardQuestion[]
+}
+
+model BoardQuestion {
+  id                 String              @id @default(cuid())
+  boardMappingId     String
+  boardMapping       BoardChapterMapping @relation(fields: [boardMappingId], references: [id])
+  questionText       String
+  questionType       String
+  marks              Int
+  answerExplanation  String
+  yearAppeared       Int[]
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  conceptId     String
+  concept       Concept  @relation(fields: [conceptId], references: [id])
+  questionText  String
+  options       Json     @default("[]")
+  correctAnswer String
+  explanation   String
+  difficulty    String   @default("medium")
+}
+
+model User {
+  id            String                @id @default(cuid())
+  name          String
+  email         String                @unique
+  phone         String?
+  boardId       String?
+  board         Board?                @relation(fields: [boardId], references: [id])
+  class         Int?
+  progress      UserConceptProgress[]
+  sessions      PracticeSession[]
+  doubtSessions DoubtSession[]
+  createdAt     DateTime              @default(now())
+}
+
+model UserConceptProgress {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id])
+  conceptId     String
+  concept       Concept  @relation(fields: [conceptId], references: [id])
+  masteryLevel  Float    @default(0)
+  lastPracticed DateTime @default(now())
+  streak        Int      @default(0)
+  mistakes      Json     @default("[]")
+}
+
+model PracticeSession {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  questionId  String
+  wasCorrect  Boolean
+  timeSpent   Int
+  hintsUsed   Int      @default(0)
+  createdAt   DateTime @default(now())
+}
+
+model DoubtSession {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  question    String
+  aiResponse  String
+  conceptId   String?
+  resolved    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}

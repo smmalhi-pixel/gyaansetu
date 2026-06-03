@@ -1,0 +1,449 @@
+{
+  "CBSE": {
+    "4": {
+      "Maths": [
+        { "id": "m1", "name": "Building with Bricks", "difficulty": "easy", "topics": 5 },
+        { "id": "m2", "name": "Long and Short", "difficulty": "easy", "topics": 5 },
+        { "id": "m3", "name": "A Trip to Bhopal", "difficulty": "easy", "topics": 5 },
+        { "id": "m4", "name": "Tick-Tick-Tick", "difficulty": "easy", "topics": 5 },
+        { "id": "m5", "name": "The Way The World Looks", "difficulty": "easy", "topics": 4 },
+        { "id": "m6", "name": "The Junk Seller", "difficulty": "easy", "topics": 5 },
+        { "id": "m7", "name": "Jugs and Mugs", "difficulty": "easy", "topics": 5 },
+        { "id": "m8", "name": "Carts and Wheels", "difficulty": "easy", "topics": 4 },
+        { "id": "m9", "name": "Halves and Quarters", "difficulty": "medium", "topics": 6 },
+        { "id": "m10", "name": "Play with Patterns", "difficulty": "easy", "topics": 5 },
+        { "id": "m11", "name": "Tables and Shares", "difficulty": "medium", "topics": 6 },
+        { "id": "m12", "name": "How Heavy? How Light?", "difficulty": "medium", "topics": 5 },
+        { "id": "m13", "name": "Fields and Fences", "difficulty": "medium", "topics": 5 },
+        { "id": "m14", "name": "Smart Charts", "difficulty": "easy", "topics": 5 }
+      ],
+      "EVS": [
+        { "id": "e1", "name": "Going to School", "difficulty": "easy", "topics": 4 },
+        { "id": "e2", "name": "Ear to Ear", "difficulty": "easy", "topics": 4 },
+        { "id": "e3", "name": "A Day with Nandu", "difficulty": "easy", "topics": 5 },
+        { "id": "e4", "name": "The Story of Amrita", "difficulty": "easy", "topics": 5 },
+        { "id": "e5", "name": "Anita and the Honeybees", "difficulty": "easy", "topics": 5 },
+        { "id": "e6", "name": "Omana's Journey", "difficulty": "easy", "topics": 4 },
+        { "id": "e7", "name": "From the Window", "difficulty": "easy", "topics": 4 },
+        { "id": "e8", "name": "Reaching Grandmother's House", "difficulty": "easy", "topics": 4 },
+        { "id": "e9", "name": "Changing Families", "difficulty": "easy", "topics": 5 },
+        { "id": "e10", "name": "Hu Tu Tu, Hu Tu Tu", "difficulty": "easy", "topics": 4 },
+        { "id": "e11", "name": "The Valley of Flowers", "difficulty": "easy", "topics": 5 },
+        { "id": "e12", "name": "Changing Times", "difficulty": "medium", "topics": 5 },
+        { "id": "e13", "name": "A River's Tale", "difficulty": "medium", "topics": 5 },
+        { "id": "e14", "name": "Basva's Farm", "difficulty": "easy", "topics": 4 },
+        { "id": "e15", "name": "From Market to Home", "difficulty": "easy", "topics": 5 }
+      ],
+      "English": [
+        { "id": "en1", "name": "Wake Up!", "difficulty": "easy", "topics": 4 },
+        { "id": "en2", "name": "Neha's Alarm Clock", "difficulty": "easy", "topics": 4 },
+        { "id": "en3", "name": "Noses", "difficulty": "easy", "topics": 3 },
+        { "id": "en4", "name": "The Little Fir Tree", "difficulty": "easy", "topics": 5 },
+        { "id": "en5", "name": "Run!", "difficulty": "easy", "topics": 3 },
+        { "id": "en6", "name": "Nasruddin's Aim", "difficulty": "easy", "topics": 4 },
+        { "id": "en7", "name": "Why?", "difficulty": "easy", "topics": 3 },
+        { "id": "en8", "name": "Alice in Wonderland", "difficulty": "medium", "topics": 5 }
+      ]
+    },
+    "5": {
+      "Maths": [
+        { "id": "m1", "name": "The Fish Tale", "difficulty": "easy", "topics": 5 },
+        { "id": "m2", "name": "Shapes and Angles", "difficulty": "easy", "topics": 6 },
+        { "id": "m3", "name": "How Many Squares?", "difficulty": "medium", "topics": 5 },
+        { "id": "m4", "name": "Parts and Wholes", "difficulty": "medium", "topics": 6 },
+        { "id": "m5", "name": "Does it Look the Same?", "difficulty": "easy", "topics": 5 },
+        { "id": "m6", "name": "Be My Multiple, I'll be Your Factor", "difficulty": "medium", "topics": 6 },
+        { "id": "m7", "name": "Can You See the Pattern?", "difficulty": "medium", "topics": 5 },
+        { "id": "m8", "name": "Mapping Your Way", "difficulty": "easy", "topics": 5 },
+        { "id": "m9", "name": "Boxes and Sketches", "difficulty": "medium", "topics": 5 },
+        { "id": "m10", "name": "Tenths and Hundredths", "difficulty": "medium", "topics": 6 },
+        { "id": "m11", "name": "Area and its Boundary", "difficulty": "medium", "topics": 5 },
+        { "id": "m12", "name": "Smart Charts", "difficulty": "easy", "topics": 5 },
+        { "id": "m13", "name": "Ways to Multiply and Divide", "difficulty": "hard", "topics": 6 }
+      ],
+      "EVS": [
+        { "id": "e1", "name": "Super Senses", "difficulty": "easy", "topics": 5 },
+        { "id": "e2", "name": "A Snake Charmer's Story", "difficulty": "easy", "topics": 5 },
+        { "id": "e3", "name": "From Tasting to Digesting", "difficulty": "medium", "topics": 6 },
+        { "id": "e4", "name": "Mangoes Round the Year", "difficulty": "easy", "topics": 5 },
+        { "id": "e5", "name": "Seeds and Seeds", "difficulty": "medium", "topics": 5 },
+        { "id": "e6", "name": "Every Drop Counts", "difficulty": "easy", "topics": 5 },
+        { "id": "e7", "name": "Experiments with Water", "difficulty": "medium", "topics": 5 },
+        { "id": "e8", "name": "A Treat for Mosquitoes", "difficulty": "medium", "topics": 5 },
+        { "id": "e9", "name": "Up You Go!", "difficulty": "easy", "topics": 5 },
+        { "id": "e10", "name": "Walls Tell Stories", "difficulty": "easy", "topics": 5 },
+        { "id": "e11", "name": "Sunita in Space", "difficulty": "medium", "topics": 5 },
+        { "id": "e12", "name": "What if it Finishes?", "difficulty": "medium", "topics": 5 }
+      ],
+      "English": [
+        { "id": "en1", "name": "Ice-cream Man", "difficulty": "easy", "topics": 4 },
+        { "id": "en2", "name": "Wonderful Waste!", "difficulty": "easy", "topics": 4 },
+        { "id": "en3", "name": "Teamwork", "difficulty": "easy", "topics": 4 },
+        { "id": "en4", "name": "Flying Together", "difficulty": "easy", "topics": 5 },
+        { "id": "en5", "name": "My Shadow", "difficulty": "easy", "topics": 3 },
+        { "id": "en6", "name": "Ribonson Crusoe", "difficulty": "medium", "topics": 5 },
+        { "id": "en7", "name": "Crying", "difficulty": "easy", "topics": 3 },
+        { "id": "en8", "name": "The Little Bully", "difficulty": "easy", "topics": 4 }
+      ]
+    },
+    "6": {
+      "Maths": [
+        { "id": "m1", "name": "Knowing Our Numbers", "difficulty": "easy", "topics": 6 },
+        { "id": "m2", "name": "Whole Numbers", "difficulty": "easy", "topics": 5 },
+        { "id": "m3", "name": "Playing with Numbers", "difficulty": "medium", "topics": 6 },
+        { "id": "m4", "name": "Basic Geometrical Ideas", "difficulty": "medium", "topics": 7 },
+        { "id": "m5", "name": "Understanding Elementary Shapes", "difficulty": "medium", "topics": 7 },
+        { "id": "m6", "name": "Integers", "difficulty": "medium", "topics": 6 },
+        { "id": "m7", "name": "Fractions", "difficulty": "hard", "topics": 7 },
+        { "id": "m8", "name": "Decimals", "difficulty": "medium", "topics": 6 },
+        { "id": "m9", "name": "Data Handling", "difficulty": "easy", "topics": 5 },
+        { "id": "m10", "name": "Mensuration", "difficulty": "hard", "topics": 7 },
+        { "id": "m11", "name": "Algebra", "difficulty": "hard", "topics": 7 },
+        { "id": "m12", "name": "Ratio and Proportion", "difficulty": "medium", "topics": 6 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Food: Where Does It Come From?", "difficulty": "easy", "topics": 5 },
+        { "id": "s2", "name": "Components of Food", "difficulty": "easy", "topics": 5 },
+        { "id": "s3", "name": "Fibre to Fabric", "difficulty": "easy", "topics": 5 },
+        { "id": "s4", "name": "Sorting Materials into Groups", "difficulty": "easy", "topics": 5 },
+        { "id": "s5", "name": "Separation of Substances", "difficulty": "medium", "topics": 6 },
+        { "id": "s6", "name": "Changes Around Us", "difficulty": "easy", "topics": 5 },
+        { "id": "s7", "name": "Getting to Know Plants", "difficulty": "medium", "topics": 6 },
+        { "id": "s8", "name": "Body Movements", "difficulty": "medium", "topics": 6 },
+        { "id": "s9", "name": "The Living Organisms", "difficulty": "medium", "topics": 6 },
+        { "id": "s10", "name": "Motion and Measurement", "difficulty": "medium", "topics": 5 },
+        { "id": "s11", "name": "Light, Shadows and Reflections", "difficulty": "medium", "topics": 6 },
+        { "id": "s12", "name": "Electricity and Circuits", "difficulty": "hard", "topics": 6 }
+      ]
+    },
+    "7": {
+      "Maths": [
+        { "id": "m1", "name": "Integers", "difficulty": "medium", "topics": 6 },
+        { "id": "m2", "name": "Fractions and Decimals", "difficulty": "medium", "topics": 7 },
+        { "id": "m3", "name": "Data Handling", "difficulty": "easy", "topics": 6 },
+        { "id": "m4", "name": "Simple Equations", "difficulty": "medium", "topics": 6 },
+        { "id": "m5", "name": "Lines and Angles", "difficulty": "medium", "topics": 7 },
+        { "id": "m6", "name": "The Triangle and its Properties", "difficulty": "hard", "topics": 7 },
+        { "id": "m7", "name": "Comparing Quantities", "difficulty": "medium", "topics": 6 },
+        { "id": "m8", "name": "Rational Numbers", "difficulty": "medium", "topics": 6 },
+        { "id": "m9", "name": "Perimeter and Area", "difficulty": "hard", "topics": 7 },
+        { "id": "m10", "name": "Algebraic Expressions", "difficulty": "medium", "topics": 6 },
+        { "id": "m11", "name": "Exponents and Powers", "difficulty": "medium", "topics": 5 },
+        { "id": "m12", "name": "Symmetry", "difficulty": "easy", "topics": 5 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Nutrition in Plants", "difficulty": "medium", "topics": 6 },
+        { "id": "s2", "name": "Nutrition in Animals", "difficulty": "medium", "topics": 6 },
+        { "id": "s3", "name": "Fibre to Fabric", "difficulty": "easy", "topics": 5 },
+        { "id": "s4", "name": "Heat", "difficulty": "medium", "topics": 6 },
+        { "id": "s5", "name": "Acids, Bases and Salts", "difficulty": "medium", "topics": 6 },
+        { "id": "s6", "name": "Physical and Chemical Changes", "difficulty": "medium", "topics": 5 },
+        { "id": "s7", "name": "Weather, Climate", "difficulty": "medium", "topics": 5 },
+        { "id": "s8", "name": "Winds, Storms and Cyclones", "difficulty": "hard", "topics": 6 },
+        { "id": "s9", "name": "Soil", "difficulty": "easy", "topics": 5 },
+        { "id": "s10", "name": "Respiration in Organisms", "difficulty": "medium", "topics": 6 },
+        { "id": "s11", "name": "Transportation in Animals and Plants", "difficulty": "hard", "topics": 6 },
+        { "id": "s12", "name": "Reproduction in Plants", "difficulty": "medium", "topics": 5 },
+        { "id": "s13", "name": "Motion and Time", "difficulty": "medium", "topics": 6 },
+        { "id": "s14", "name": "Electric Current and its Effects", "difficulty": "hard", "topics": 6 },
+        { "id": "s15", "name": "Light", "difficulty": "hard", "topics": 6 }
+      ]
+    },
+    "8": {
+      "Maths": [
+        { "id": "m1", "name": "Rational Numbers", "difficulty": "easy", "topics": 6 },
+        { "id": "m2", "name": "Linear Equations in One Variable", "difficulty": "easy", "topics": 7 },
+        { "id": "m3", "name": "Understanding Quadrilaterals", "difficulty": "medium", "topics": 8 },
+        { "id": "m4", "name": "Data Handling", "difficulty": "easy", "topics": 7 },
+        { "id": "m5", "name": "Squares and Square Roots", "difficulty": "medium", "topics": 6 },
+        { "id": "m6", "name": "Cubes and Cube Roots", "difficulty": "medium", "topics": 5 },
+        { "id": "m7", "name": "Comparing Quantities", "difficulty": "medium", "topics": 8 },
+        { "id": "m8", "name": "Algebraic Expressions and Identities", "difficulty": "medium", "topics": 7 },
+        { "id": "m9", "name": "Mensuration", "difficulty": "hard", "topics": 9 },
+        { "id": "m10", "name": "Exponents and Powers", "difficulty": "medium", "topics": 5 },
+        { "id": "m11", "name": "Direct and Inverse Proportions", "difficulty": "medium", "topics": 6 },
+        { "id": "m12", "name": "Factorisation", "difficulty": "medium", "topics": 7 },
+        { "id": "m13", "name": "Introduction to Graphs", "difficulty": "easy", "topics": 5 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Crop Production and Management", "difficulty": "easy", "topics": 8 },
+        { "id": "s2", "name": "Microorganisms: Friend and Foe", "difficulty": "easy", "topics": 7 },
+        { "id": "s3", "name": "Coal and Petroleum", "difficulty": "medium", "topics": 6 },
+        { "id": "s4", "name": "Combustion and Flame", "difficulty": "medium", "topics": 7 },
+        { "id": "s5", "name": "Conservation of Plants and Animals", "difficulty": "easy", "topics": 6 },
+        { "id": "s6", "name": "Reproduction in Animals", "difficulty": "medium", "topics": 7 },
+        { "id": "s7", "name": "Reaching the Age of Adolescence", "difficulty": "easy", "topics": 6 },
+        { "id": "s8", "name": "Force and Pressure", "difficulty": "medium", "topics": 8 },
+        { "id": "s9", "name": "Friction", "difficulty": "easy", "topics": 6 },
+        { "id": "s10", "name": "Sound", "difficulty": "medium", "topics": 7 },
+        { "id": "s11", "name": "Chemical Effects of Electric Current", "difficulty": "hard", "topics": 6 },
+        { "id": "s12", "name": "Some Natural Phenomena", "difficulty": "medium", "topics": 7 },
+        { "id": "s13", "name": "Light", "difficulty": "hard", "topics": 8 }
+      ],
+      "English": [
+        { "id": "e1", "name": "The Best Christmas Present in the World", "difficulty": "easy", "topics": 5 },
+        { "id": "e2", "name": "The Tsunami", "difficulty": "easy", "topics": 5 },
+        { "id": "e3", "name": "Glimpses of the Past", "difficulty": "medium", "topics": 6 },
+        { "id": "e4", "name": "Bepin Choudhury's Lapse of Memory", "difficulty": "easy", "topics": 5 },
+        { "id": "e5", "name": "The Summit Within", "difficulty": "medium", "topics": 5 }
+      ]
+    },
+    "9": {
+      "Maths": [
+        { "id": "m1", "name": "Number Systems", "difficulty": "easy", "topics": 7 },
+        { "id": "m2", "name": "Polynomials", "difficulty": "medium", "topics": 6 },
+        { "id": "m3", "name": "Coordinate Geometry", "difficulty": "easy", "topics": 5 },
+        { "id": "m4", "name": "Linear Equations in Two Variables", "difficulty": "medium", "topics": 6 },
+        { "id": "m5", "name": "Introduction to Euclid's Geometry", "difficulty": "easy", "topics": 4 },
+        { "id": "m6", "name": "Lines and Angles", "difficulty": "medium", "topics": 7 },
+        { "id": "m7", "name": "Triangles", "difficulty": "hard", "topics": 8 },
+        { "id": "m8", "name": "Quadrilaterals", "difficulty": "hard", "topics": 7 },
+        { "id": "m9", "name": "Circles", "difficulty": "hard", "topics": 8 },
+        { "id": "m10", "name": "Heron's Formula", "difficulty": "medium", "topics": 4 },
+        { "id": "m11", "name": "Surface Areas and Volumes", "difficulty": "hard", "topics": 7 },
+        { "id": "m12", "name": "Statistics", "difficulty": "medium", "topics": 6 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Matter in Our Surroundings", "difficulty": "easy", "topics": 7 },
+        { "id": "s2", "name": "Is Matter Around Us Pure?", "difficulty": "medium", "topics": 8 },
+        { "id": "s3", "name": "Atoms and Molecules", "difficulty": "hard", "topics": 7 },
+        { "id": "s4", "name": "Structure of the Atom", "difficulty": "hard", "topics": 7 },
+        { "id": "s5", "name": "The Fundamental Unit of Life", "difficulty": "medium", "topics": 8 },
+        { "id": "s6", "name": "Tissues", "difficulty": "medium", "topics": 7 },
+        { "id": "s7", "name": "Motion", "difficulty": "medium", "topics": 7 },
+        { "id": "s8", "name": "Force and Laws of Motion", "difficulty": "hard", "topics": 7 },
+        { "id": "s9", "name": "Gravitation", "difficulty": "hard", "topics": 8 },
+        { "id": "s10", "name": "Work and Energy", "difficulty": "medium", "topics": 6 },
+        { "id": "s11", "name": "Sound", "difficulty": "medium", "topics": 7 },
+        { "id": "s12", "name": "Improvement in Food Resources", "difficulty": "easy", "topics": 6 }
+      ],
+      "English": [
+        { "id": "e1", "name": "The Fun They Had", "difficulty": "easy", "topics": 5 },
+        { "id": "e2", "name": "The Sound of Music", "difficulty": "easy", "topics": 5 },
+        { "id": "e3", "name": "The Little Girl", "difficulty": "easy", "topics": 5 },
+        { "id": "e4", "name": "A Truly Beautiful Mind", "difficulty": "medium", "topics": 5 },
+        { "id": "e5", "name": "My Childhood", "difficulty": "easy", "topics": 5 }
+      ]
+    },
+    "10": {
+      "Maths": [
+        { "id": "m1", "name": "Real Numbers", "difficulty": "easy", "topics": 6 },
+        { "id": "m2", "name": "Polynomials", "difficulty": "medium", "topics": 6 },
+        { "id": "m3", "name": "Pair of Linear Equations", "difficulty": "medium", "topics": 7 },
+        { "id": "m4", "name": "Quadratic Equations", "difficulty": "medium", "topics": 6 },
+        { "id": "m5", "name": "Arithmetic Progressions", "difficulty": "medium", "topics": 6 },
+        { "id": "m6", "name": "Triangles", "difficulty": "hard", "topics": 8 },
+        { "id": "m7", "name": "Coordinate Geometry", "difficulty": "medium", "topics": 7 },
+        { "id": "m8", "name": "Introduction to Trigonometry", "difficulty": "hard", "topics": 8 },
+        { "id": "m9", "name": "Some Applications of Trigonometry", "difficulty": "hard", "topics": 5 },
+        { "id": "m10", "name": "Circles", "difficulty": "hard", "topics": 6 },
+        { "id": "m11", "name": "Areas Related to Circles", "difficulty": "hard", "topics": 6 },
+        { "id": "m12", "name": "Surface Areas and Volumes", "difficulty": "hard", "topics": 7 },
+        { "id": "m13", "name": "Statistics", "difficulty": "medium", "topics": 7 },
+        { "id": "m14", "name": "Probability", "difficulty": "easy", "topics": 5 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Chemical Reactions and Equations", "difficulty": "medium", "topics": 7 },
+        { "id": "s2", "name": "Acids, Bases and Salts", "difficulty": "medium", "topics": 8 },
+        { "id": "s3", "name": "Metals and Non-metals", "difficulty": "medium", "topics": 7 },
+        { "id": "s4", "name": "Carbon and its Compounds", "difficulty": "hard", "topics": 8 },
+        { "id": "s5", "name": "Life Processes", "difficulty": "hard", "topics": 7 },
+        { "id": "s6", "name": "Control and Coordination", "difficulty": "hard", "topics": 7 },
+        { "id": "s7", "name": "How do Organisms Reproduce?", "difficulty": "medium", "topics": 7 },
+        { "id": "s8", "name": "Heredity and Evolution", "difficulty": "hard", "topics": 7 },
+        { "id": "s9", "name": "Light - Reflection and Refraction", "difficulty": "hard", "topics": 8 },
+        { "id": "s10", "name": "Human Eye and Colourful World", "difficulty": "medium", "topics": 6 },
+        { "id": "s11", "name": "Electricity", "difficulty": "hard", "topics": 8 },
+        { "id": "s12", "name": "Magnetic Effects of Electric Current", "difficulty": "hard", "topics": 7 }
+      ],
+      "Social Science": [
+        { "id": "ss1", "name": "The Rise of Nationalism in Europe", "difficulty": "hard", "topics": 7 },
+        { "id": "ss2", "name": "Nationalism in India", "difficulty": "medium", "topics": 6 },
+        { "id": "ss3", "name": "The Making of a Global World", "difficulty": "medium", "topics": 6 },
+        { "id": "ss4", "name": "Print Culture and the Modern World", "difficulty": "medium", "topics": 6 },
+        { "id": "ss5", "name": "Resources and Development", "difficulty": "easy", "topics": 5 },
+        { "id": "ss6", "name": "Water Resources", "difficulty": "easy", "topics": 5 },
+        { "id": "ss7", "name": "Agriculture", "difficulty": "medium", "topics": 6 },
+        { "id": "ss8", "name": "Minerals and Energy Resources", "difficulty": "medium", "topics": 6 },
+        { "id": "ss9", "name": "Power Sharing", "difficulty": "easy", "topics": 5 },
+        { "id": "ss10", "name": "Federalism", "difficulty": "medium", "topics": 5 },
+        { "id": "ss11", "name": "Gender, Religion and Caste", "difficulty": "medium", "topics": 5 },
+        { "id": "ss12", "name": "Political Parties", "difficulty": "medium", "topics": 6 },
+        { "id": "ss13", "name": "Outcomes of Democracy", "difficulty": "easy", "topics": 5 },
+        { "id": "ss14", "name": "Development", "difficulty": "easy", "topics": 5 },
+        { "id": "ss15", "name": "Sectors of the Indian Economy", "difficulty": "medium", "topics": 6 },
+        { "id": "ss16", "name": "Money and Credit", "difficulty": "medium", "topics": 6 },
+        { "id": "ss17", "name": "Globalisation and the Indian Economy", "difficulty": "medium", "topics": 6 }
+      ],
+      "English": [
+        { "id": "e1", "name": "A Letter to God", "difficulty": "easy", "topics": 5 },
+        { "id": "e2", "name": "Nelson Mandela: Long Walk to Freedom", "difficulty": "medium", "topics": 6 },
+        { "id": "e3", "name": "Two Stories about Flying", "difficulty": "easy", "topics": 5 },
+        { "id": "e4", "name": "From the Diary of Anne Frank", "difficulty": "medium", "topics": 6 },
+        { "id": "e5", "name": "Glimpses of India", "difficulty": "easy", "topics": 5 }
+      ]
+    },
+    "11": {
+      "Physics": [
+        { "id": "p1", "name": "Units and Measurements", "difficulty": "easy", "topics": 7 },
+        { "id": "p2", "name": "Motion in a Straight Line", "difficulty": "medium", "topics": 8 },
+        { "id": "p3", "name": "Motion in a Plane", "difficulty": "medium", "topics": 7 },
+        { "id": "p4", "name": "Laws of Motion", "difficulty": "hard", "topics": 8 },
+        { "id": "p5", "name": "Work, Energy and Power", "difficulty": "medium", "topics": 7 },
+        { "id": "p6", "name": "System of Particles and Rotational Motion", "difficulty": "hard", "topics": 9 },
+        { "id": "p7", "name": "Gravitation", "difficulty": "hard", "topics": 8 },
+        { "id": "p8", "name": "Mechanical Properties of Solids", "difficulty": "medium", "topics": 6 },
+        { "id": "p9", "name": "Mechanical Properties of Fluids", "difficulty": "hard", "topics": 7 },
+        { "id": "p10", "name": "Thermal Properties of Matter", "difficulty": "medium", "topics": 6 }
+      ],
+      "Chemistry": [
+        { "id": "c1", "name": "Some Basic Concepts of Chemistry", "difficulty": "easy", "topics": 7 },
+        { "id": "c2", "name": "Structure of Atom", "difficulty": "hard", "topics": 8 },
+        { "id": "c3", "name": "Classification of Elements and Periodicity", "difficulty": "medium", "topics": 7 },
+        { "id": "c4", "name": "Chemical Bonding and Molecular Structure", "difficulty": "hard", "topics": 8 },
+        { "id": "c5", "name": "States of Matter", "difficulty": "medium", "topics": 6 },
+        { "id": "c6", "name": "Thermodynamics", "difficulty": "hard", "topics": 8 },
+        { "id": "c7", "name": "Equilibrium", "difficulty": "hard", "topics": 8 },
+        { "id": "c8", "name": "Redox Reactions", "difficulty": "medium", "topics": 6 },
+        { "id": "c9", "name": "Hydrogen", "difficulty": "easy", "topics": 5 }
+      ],
+      "Maths": [
+        { "id": "m1", "name": "Sets", "difficulty": "easy", "topics": 6 },
+        { "id": "m2", "name": "Relations and Functions", "difficulty": "medium", "topics": 7 },
+        { "id": "m3", "name": "Trigonometric Functions", "difficulty": "hard", "topics": 8 },
+        { "id": "m4", "name": "Principle of Mathematical Induction", "difficulty": "medium", "topics": 4 },
+        { "id": "m5", "name": "Complex Numbers and Quadratic Equations", "difficulty": "medium", "topics": 7 },
+        { "id": "m6", "name": "Linear Inequalities", "difficulty": "easy", "topics": 6 },
+        { "id": "m7", "name": "Permutations and Combinations", "difficulty": "medium", "topics": 7 },
+        { "id": "m8", "name": "Binomial Theorem", "difficulty": "medium", "topics": 6 },
+        { "id": "m9", "name": "Sequences and Series", "difficulty": "medium", "topics": 7 },
+        { "id": "m10", "name": "Straight Lines", "difficulty": "medium", "topics": 8 },
+        { "id": "m11", "name": "Conic Sections", "difficulty": "hard", "topics": 8 },
+        { "id": "m12", "name": "Introduction to 3D Geometry", "difficulty": "medium", "topics": 5 },
+        { "id": "m13", "name": "Limits and Derivatives", "difficulty": "hard", "topics": 8 }
+      ]
+    },
+    "12": {
+      "Physics": [
+        { "id": "p1", "name": "Electric Charges and Fields", "difficulty": "hard", "topics": 8 },
+        { "id": "p2", "name": "Electrostatic Potential and Capacitance", "difficulty": "hard", "topics": 8 },
+        { "id": "p3", "name": "Current Electricity", "difficulty": "medium", "topics": 7 },
+        { "id": "p4", "name": "Moving Charges and Magnetism", "difficulty": "hard", "topics": 8 },
+        { "id": "p5", "name": "Magnetism and Matter", "difficulty": "medium", "topics": 6 },
+        { "id": "p6", "name": "Electromagnetic Induction", "difficulty": "hard", "topics": 7 },
+        { "id": "p7", "name": "Alternating Current", "difficulty": "hard", "topics": 7 },
+        { "id": "p8", "name": "Electromagnetic Waves", "difficulty": "medium", "topics": 5 },
+        { "id": "p9", "name": "Ray Optics and Optical Instruments", "difficulty": "hard", "topics": 8 },
+        { "id": "p10", "name": "Wave Optics", "difficulty": "hard", "topics": 7 }
+      ],
+      "Chemistry": [
+        { "id": "c1", "name": "The Solid State", "difficulty": "medium", "topics": 7 },
+        { "id": "c2", "name": "Solutions", "difficulty": "medium", "topics": 7 },
+        { "id": "c3", "name": "Electrochemistry", "difficulty": "hard", "topics": 8 },
+        { "id": "c4", "name": "Chemical Kinetics", "difficulty": "hard", "topics": 7 },
+        { "id": "c5", "name": "Surface Chemistry", "difficulty": "medium", "topics": 6 },
+        { "id": "c6", "name": "General Principles of Isolation of Elements", "difficulty": "medium", "topics": 6 },
+        { "id": "c7", "name": "p-Block Elements", "difficulty": "hard", "topics": 8 },
+        { "id": "c8", "name": "d and f Block Elements", "difficulty": "hard", "topics": 7 },
+        { "id": "c9", "name": "Coordination Compounds", "difficulty": "hard", "topics": 7 }
+      ],
+      "Maths": [
+        { "id": "m1", "name": "Relations and Functions", "difficulty": "medium", "topics": 6 },
+        { "id": "m2", "name": "Inverse Trigonometric Functions", "difficulty": "hard", "topics": 7 },
+        { "id": "m3", "name": "Matrices", "difficulty": "medium", "topics": 7 },
+        { "id": "m4", "name": "Determinants", "difficulty": "medium", "topics": 7 },
+        { "id": "m5", "name": "Continuity and Differentiability", "difficulty": "hard", "topics": 8 },
+        { "id": "m6", "name": "Applications of Derivatives", "difficulty": "hard", "topics": 8 },
+        { "id": "m7", "name": "Integrals", "difficulty": "hard", "topics": 9 },
+        { "id": "m8", "name": "Applications of Integrals", "difficulty": "hard", "topics": 7 },
+        { "id": "m9", "name": "Differential Equations", "difficulty": "hard", "topics": 7 },
+        { "id": "m10", "name": "Vector Algebra", "difficulty": "medium", "topics": 7 },
+        { "id": "m11", "name": "Three-Dimensional Geometry", "difficulty": "hard", "topics": 7 },
+        { "id": "m12", "name": "Linear Programming", "difficulty": "medium", "topics": 6 },
+        { "id": "m13", "name": "Probability", "difficulty": "hard", "topics": 7 }
+      ]
+    }
+  },
+  "ICSE": {
+    "8": {
+      "Maths": [
+        { "id": "m1", "name": "Rational Numbers", "difficulty": "easy", "topics": 6 },
+        { "id": "m2", "name": "Exponents and Powers", "difficulty": "medium", "topics": 6 },
+        { "id": "m3", "name": "Squares and Square Roots", "difficulty": "medium", "topics": 6 },
+        { "id": "m4", "name": "Cubes and Cube Roots", "difficulty": "medium", "topics": 5 },
+        { "id": "m5", "name": "Playing with Numbers", "difficulty": "easy", "topics": 5 },
+        { "id": "m6", "name": "Algebraic Expressions", "difficulty": "medium", "topics": 7 },
+        { "id": "m7", "name": "Linear Equations", "difficulty": "medium", "topics": 7 },
+        { "id": "m8", "name": "Understanding Shapes", "difficulty": "medium", "topics": 8 },
+        { "id": "m9", "name": "Mensuration", "difficulty": "hard", "topics": 8 },
+        { "id": "m10", "name": "Data Handling", "difficulty": "easy", "topics": 6 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Transport of Food and Minerals in Plants", "difficulty": "medium", "topics": 6 },
+        { "id": "s2", "name": "Reproduction in Plants and Animals", "difficulty": "medium", "topics": 8 },
+        { "id": "s3", "name": "Ecosystems", "difficulty": "easy", "topics": 6 },
+        { "id": "s4", "name": "Human Body: Endocrine System", "difficulty": "hard", "topics": 7 },
+        { "id": "s5", "name": "Health and Hygiene", "difficulty": "easy", "topics": 6 },
+        { "id": "s6", "name": "Matter", "difficulty": "easy", "topics": 6 },
+        { "id": "s7", "name": "Physical Quantities and Measurement", "difficulty": "medium", "topics": 7 },
+        { "id": "s8", "name": "Force and Pressure", "difficulty": "medium", "topics": 7 },
+        { "id": "s9", "name": "Energy", "difficulty": "medium", "topics": 6 }
+      ]
+    },
+    "9": {
+      "Maths": [
+        { "id": "m1", "name": "Rational and Irrational Numbers", "difficulty": "medium", "topics": 6 },
+        { "id": "m2", "name": "Compound Interest", "difficulty": "medium", "topics": 6 },
+        { "id": "m3", "name": "Expansions", "difficulty": "medium", "topics": 5 },
+        { "id": "m4", "name": "Factorisation", "difficulty": "medium", "topics": 7 },
+        { "id": "m5", "name": "Simultaneous Linear Equations", "difficulty": "medium", "topics": 6 },
+        { "id": "m6", "name": "Indices", "difficulty": "medium", "topics": 5 },
+        { "id": "m7", "name": "Logarithms", "difficulty": "hard", "topics": 6 },
+        { "id": "m8", "name": "Triangles", "difficulty": "hard", "topics": 8 },
+        { "id": "m9", "name": "Mid-point Theorem", "difficulty": "medium", "topics": 4 },
+        { "id": "m10", "name": "Pythagoras Theorem", "difficulty": "medium", "topics": 5 },
+        { "id": "m11", "name": "Rectilinear Figures", "difficulty": "hard", "topics": 7 },
+        { "id": "m12", "name": "Circle", "difficulty": "hard", "topics": 7 },
+        { "id": "m13", "name": "Statistics", "difficulty": "medium", "topics": 6 },
+        { "id": "m14", "name": "Mensuration", "difficulty": "hard", "topics": 7 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Basic Biology", "difficulty": "easy", "topics": 6 },
+        { "id": "s2", "name": "Flowering Plants", "difficulty": "medium", "topics": 7 },
+        { "id": "s3", "name": "Plant Physiology", "difficulty": "hard", "topics": 7 },
+        { "id": "s4", "name": "Diversity in Living Organisms", "difficulty": "medium", "topics": 7 },
+        { "id": "s5", "name": "Human Anatomy and Physiology", "difficulty": "hard", "topics": 8 },
+        { "id": "s6", "name": "Health and Diseases", "difficulty": "easy", "topics": 6 },
+        { "id": "s7", "name": "Matter and its Composition", "difficulty": "easy", "topics": 5 },
+        { "id": "s8", "name": "Atomic Structure", "difficulty": "hard", "topics": 7 },
+        { "id": "s9", "name": "Chemical Bonding", "difficulty": "hard", "topics": 7 }
+      ]
+    },
+    "10": {
+      "Maths": [
+        { "id": "m1", "name": "Commercial Mathematics", "difficulty": "medium", "topics": 7 },
+        { "id": "m2", "name": "Algebra", "difficulty": "hard", "topics": 8 },
+        { "id": "m3", "name": "Geometry", "difficulty": "hard", "topics": 8 },
+        { "id": "m4", "name": "Mensuration", "difficulty": "hard", "topics": 8 },
+        { "id": "m5", "name": "Trigonometry", "difficulty": "hard", "topics": 7 },
+        { "id": "m6", "name": "Statistics", "difficulty": "medium", "topics": 7 },
+        { "id": "m7", "name": "Probability", "difficulty": "medium", "topics": 5 }
+      ],
+      "Science": [
+        { "id": "s1", "name": "Periodic Properties and Variations", "difficulty": "medium", "topics": 7 },
+        { "id": "s2", "name": "Chemical Bonding", "difficulty": "hard", "topics": 7 },
+        { "id": "s3", "name": "Acids, Bases and Salts", "difficulty": "medium", "topics": 7 },
+        { "id": "s4", "name": "Analytical Chemistry", "difficulty": "hard", "topics": 6 },
+        { "id": "s5", "name": "Mole Concept and Stoichiometry", "difficulty": "hard", "topics": 7 },
+        { "id": "s6", "name": "Electrolysis", "difficulty": "hard", "topics": 7 },
+        { "id": "s7", "name": "Metallurgy", "difficulty": "medium", "topics": 6 },
+        { "id": "s8", "name": "Force", "difficulty": "medium", "topics": 6 },
+        { "id": "s9", "name": "Work, Energy and Power", "difficulty": "medium", "topics": 7 },
+        { "id": "s10", "name": "Refraction of Light", "difficulty": "hard", "topics": 7 },
+        { "id": "s11", "name": "Spectrum", "difficulty": "medium", "topics": 5 },
+        { "id": "s12", "name": "Sound", "difficulty": "medium", "topics": 7 },
+        { "id": "s13", "name": "Current Electricity", "difficulty": "hard", "topics": 8 }
+      ]
+    }
+  }
+}
