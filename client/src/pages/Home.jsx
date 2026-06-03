@@ -41,7 +41,7 @@ function Home() {
       const saved = localStorage.getItem(progressKey);
       const progress = saved ? JSON.parse(saved) : {};
 
-      fetch(`http://localhost:5000/api/chapters/${board}/${classLevel}`)
+      fetch(`https://gyaansetu-8b44.onrender.com/api/chapters/${board}/${classLevel}`)
         .then(r => r.json())
         .then(data => {
           let totalChapters = 0;

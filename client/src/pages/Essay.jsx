@@ -19,7 +19,7 @@ function Essay() {
     if (!topic.trim()) return;
     setLoading(true); setError(null);
     try {
-      const response = await fetch('http://localhost:5000/api/essay/generate', {
+      const response = await fetch('https://gyaansetu-8b44.onrender.com/api/essay/generate', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ topic, board, classLevel, type, wordCount })
       });

@@ -30,7 +30,7 @@ function Lecture() {
   const generateLecture = async () => {
     setLoading(true); setError(null);
     try {
-      const response = await fetch('http://localhost:5000/api/lecture/generate', {
+      const response = await fetch('https://gyaansetu-8b44.onrender.com/api/lecture/generate', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ chapter, subject, board, classLevel })
       });

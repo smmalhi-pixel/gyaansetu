@@ -48,7 +48,7 @@ function Syllabus() {
     const newStreak = updateStreak();
     setStreak(newStreak);
     setTopics(getTopics(board, classLevel));
-    fetch(`http://localhost:5000/api/chapters/${board}/${classLevel}`)
+    fetch(`https://gyaansetu-8b44.onrender.com/api/chapters/${board}/${classLevel}`)
       .then(r => r.json())
       .then(data => {
         setSubjects(data);

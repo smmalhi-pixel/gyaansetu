@@ -16,7 +16,7 @@ function StudyPlan() {
   const classLevel = localStorage.getItem('gyaansetu_class') || '10';
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/chapters/${board}/${classLevel}`)
+    fetch(`https://gyaansetu-8b44.onrender.com/api/chapters/${board}/${classLevel}`)
       .then(r => r.json())
       .then(data => setSubjects(Object.keys(data)))
       .catch(() => {});

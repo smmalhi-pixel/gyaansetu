@@ -22,7 +22,7 @@ function Quiz() {
     const progressKey = `progress_${board}_${classLevel}`;
     const saved = localStorage.getItem(progressKey);
     const progress = saved ? JSON.parse(saved) : {};
-    fetch(`http://localhost:5000/api/chapters/${board}/${classLevel}`)
+    fetch(`https://gyaansetu-8b44.onrender.com/api/chapters/${board}/${classLevel}`)
       .then(r => r.json())
       .then(data => {
         const completedSubjects = {};
