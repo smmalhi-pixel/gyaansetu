@@ -240,4 +240,5 @@ app.post('/api/doubt/solve', async (req, res) => {
   } catch (error) { res.status(500).json({ reply: "Error: " + error.message }); }
 });
 
-app.listen(5000, () => console.log('Server running on port 5000'));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
