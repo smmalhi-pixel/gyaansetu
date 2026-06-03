@@ -11,7 +11,7 @@ const serverCache = {};
 const chapters = require('./chapters-data.json');
 
 const client = new OpenAI({
-  apiKey: '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',
+  apiKey: 'YOUR_API_KEY_HERE',
   baseURL: "https://api.groq.com/openai/v1"
 });
 
@@ -162,7 +162,7 @@ app.post('/api/studyplan/generate', async (req, res) => {
 app.get('/api/youtube/search', async (req, res) => {
   try {
     const { query } = req.query;
-    const YOUTUBE_KEY = 'AIzaSyAS826vzdvmVw_opxBkf1WPg-Jkef_2SQA';
+    const YOUTUBE_KEY = 'YOUR_API_KEY_HERE';
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${encodeURIComponent(query)}&type=video&videoEmbeddable=true&key=${YOUTUBE_KEY}`;
     console.log('YouTube API called');
     const response = await fetch(url);

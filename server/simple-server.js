@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const openai = new OpenAI({ apiKey: "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" });
+const openai = new OpenAI({ apiKey: "YOUR_API_KEY_HERE" });
 
 app.post('/api/doubt/solve', async (req, res) => {
   try {

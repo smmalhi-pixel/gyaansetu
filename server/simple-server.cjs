@@ -19,7 +19,7 @@ app.get('/api/chapters/:board/:class', (req, res) => {
 });
 
 const client = new OpenAI({
-  apiKey: "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",
+  apiKey: "YOUR_API_KEY_HERE",
   baseURL: "https://api.groq.com/openai/v1"
 });
 

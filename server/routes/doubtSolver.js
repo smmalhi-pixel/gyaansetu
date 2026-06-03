@@ -3,7 +3,7 @@ import express from 'express';
 import OpenAI from 'openai';
 
 const router = express.Router();
-const openai = new OpenAI({ api key : "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"});
+const openai = new OpenAI({ api key : "YOUR_API_KEY_HERE"});
 
 const SYSTEM_PROMPT = `You are "Gyaan Guru", a strict but friendly tutor for Indian students (Classes 8-12, CBSE & ICSE). 
 
