@@ -27,8 +27,8 @@ import Todo from './pages/Todo';
 import Toast from './components/Toast';
 import FAB from './components/FAB';
 import BottomNav from './components/BottomNav';
-import { setToastCallback } from './utils/toastmanager';
-import { startVoiceCommands, stopVoiceCommands, setNavigateCallback } from './utils/voicecommands';
+import { setToastCallback } from './utils/ToastManager';
+import { startVoiceCommands, stopVoiceCommands, setNavigateCallback } from './utils/VoiceCommands';
 
 function AppContent() {
   const [toast, setToast] = useState(null);
