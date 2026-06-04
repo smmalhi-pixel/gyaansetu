@@ -1,4 +1,4 @@
-{
+.{
   "name": "GyaanSetu",
   "short_name": "GyaanSetu",
   "description": "AI-powered learning platform for CBSE & ICSE students (Classes 4-12). Features AI lectures, video lessons, tests, and gamification.",
@@ -12,7 +12,13 @@
   "prefer_related_applications": false,
   "related_applications": [],
   "iarc_rating_id": "",
-  "screenshots": [],
+  "screenshots": [
+    { "src": "/screenshot1.png(home)", "sizes": "1280x720", "type": "image/png" },
+    { "src": "/screenshot2.png(profile)", "sizes": "1280x720", "type": "image/png" },
+    { "src": "/screenshot3.png(videos)", "sizes": "1280x720", "type": "image/png" },
+    { "src": "/screenshot4.png(syllabus)", "sizes": "1280x720", "type": "image/png" },
+    { "src": "/screenshot5.png(analytics)", "sizes": "1280x720", "type": "image/png" }
+  ],
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
