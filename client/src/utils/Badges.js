@@ -1,4 +1,4 @@
-import { playSound } from './sounds';
+import { playSound } from './Sounds';
 
 const BADGES_KEY = 'gyaansetu_badges';
 
