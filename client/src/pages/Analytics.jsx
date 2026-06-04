@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, BarChart3, TrendingUp, BookOpen, StickyNote, Layers, Clock, PieChart } from 'lucide-react';
-import { getSubjectAnalytics, getWeeklyActivity } from '../utils/analytics';
-import { t } from '../utils/language';
+import { getSubjectAnalytics, getWeeklyActivity } from '../utils/Analytics';
+import { t } from '../utils/Language';
 
 function Analytics() {
   const navigate = useNavigate();
