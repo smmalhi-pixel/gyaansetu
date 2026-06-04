@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Loader2, Clock, Target, BookOpen, Lightbulb, Trophy } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function StudyPlan() {
   const navigate = useNavigate();
