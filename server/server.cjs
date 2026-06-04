@@ -11,7 +11,7 @@ const serverCache = {};
 const chapters = require('./chapters-data.json');
 
 const client = new OpenAI({
-  apiKey: 'YOUR_API_KEY_HERE',
+  apiKey: process.env.GROQ_API_KEY || 'fallback',
   baseURL: "https://api.groq.com/openai/v1"
 });
 
