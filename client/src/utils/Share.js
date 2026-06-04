@@ -1,5 +1,5 @@
-import { getLevelInfo } from './xp';
-import { getStreak } from './streak';
+import { getLevelInfo } from './Xp';
+import { getStreak } from './Streak';
 
 export const generateShareImage = async (board, classLevel) => {
   const levelInfo = getLevelInfo();
