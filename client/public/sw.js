@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gyaansetu-v1';
+const CACHE_NAME = 'gyaansetu-v2';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -6,6 +6,16 @@ self.addEventListener('install', (event) => {
       return cache.addAll(['/', '/index.html']);
     })
   );
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key)));
+    })
+  );
+  self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
@@ -14,4 +24,28 @@ self.addEventListener('fetch', (event) => {
       return response || fetch(event.request);
     })
   );
+});
+
+// Background Sync
+self.addEventListener('sync', (event) => {
+  if (event.tag === 'sync-data') {
+    event.waitUntil(Promise.resolve());
+  }
+});
+
+// Periodic Sync
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'update-content') {
+    event.waitUntil(Promise.resolve());
+  }
+});
+
+// Push Notifications
+self.addEventListener('push', (event) => {
+  const options = {
+    body: event.data ? event.data.text() : 'Time to study!',
+    icon: '/icon-192.png',
+    badge: '/icon-192.png'
+  };
+  event.waitUntil(self.registration.showNotification('GyaanSetu', options));
 });
