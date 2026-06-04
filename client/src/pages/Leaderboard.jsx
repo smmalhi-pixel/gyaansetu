@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Trophy, Medal, TrendingUp, Star } from 'lucide-react';
-import { getLeaderboardData } from '../utils/leaderboard';
-import { t } from '../utils/language';
+import { getLeaderboardData } from '../utils/Leaderboard';
+import { t } from '../utils/Language';
 
 function Leaderboard() {
   const navigate = useNavigate();
