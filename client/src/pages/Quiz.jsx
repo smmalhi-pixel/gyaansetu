@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Brain, CheckCircle, XCircle, RotateCcw, Trophy } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function Quiz() {
   const navigate = useNavigate();
