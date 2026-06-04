@@ -8,12 +8,22 @@
   "lang": "en",
   "dir": "ltr",
   "display": "standalone",
-  "display_override": ["standalone", "fullscreen", "minimal-ui", "window-controls-overlay"],
+  "display_override": ["standalone", "fullscreen", "minimal-ui", "window-controls-overlay", "tabbed"],
   "background_color": "#f97316",
   "theme_color": "#f97316",
   "orientation": "portrait-primary",
   "categories": ["education", "productivity", "utilities", "books", "study"],
   "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "note_taking": {
+    "new_note_url": "/notes"
+  },
+  "tabbed_display": {
+    "home_tab": { "scope": "/", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    "new_tab_url": "/"
+  },
   "related_applications": [
     { "platform": "play", "id": "com.gyaansetu.app", "url": "https://play.google.com/store/apps/details?id=com.gyaansetu.app" }
   ],
@@ -22,6 +32,30 @@
   "scope_extensions": [
     { "origin": "https://gyaansetu-five.vercel.app" },
     { "origin": "https://gyaansetu-8b44.onrender.com" }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+gyaansetu",
+      "url": "/?q=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "widgets": [
+    {
+      "name": "Study Progress",
+      "tag": "progress",
+      "description": "Quick view of your study progress",
+      "ms_ac_template": "custom"
+    }
   ],
   "file_handlers": [
     {
