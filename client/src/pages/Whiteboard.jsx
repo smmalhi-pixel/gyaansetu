@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Pen, Eraser, RotateCcw, Download, Circle } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function Whiteboard() {
   const navigate = useNavigate();
