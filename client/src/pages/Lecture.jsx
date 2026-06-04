@@ -59,7 +59,7 @@ function Lecture() {
   const fetchVideos = async () => {
     setLoadingVideos(true);
     try {
-      const res = await fetch(`http://localhost:5000/api/youtube/search?query=${encodeURIComponent(`${chapter} ${subject} ${board} Class ${classLevel}`)}`);
+      const res = await fetch(`https://gyaansetu-8b44.onrender.com/api/youtube/search?query=${encodeURIComponent(`${chapter} ${subject} ${board} Class ${classLevel}`)}`);
       const data = await res.json();
       setVideos(data);
     } catch (err) {}
