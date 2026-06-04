@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, CalendarDays, Flame, Zap, Target, Clock, Award, BarChart3, Download } from 'lucide-react';
-import { getWeeklyReport } from '../utils/weekly';
-import { getLevelInfo } from '../utils/xp';
-import { downloadReport } from '../utils/export';
-import { t } from '../utils/language';
+import { getWeeklyReport } from '../utils/Weekly';
+import { getLevelInfo } from '../utils/Xp';
+import { downloadReport } from '../utils/Export';
+import { t } from '../utils/Language';
 
 function Weekly() {
   const navigate = useNavigate();
