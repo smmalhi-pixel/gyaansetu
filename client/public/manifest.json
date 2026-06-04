@@ -14,11 +14,20 @@
   "orientation": "portrait-primary",
   "categories": ["education", "productivity", "utilities"],
   "prefer_related_applications": false,
-  "related_applications": [],
+  "related_applications": [
+    { "platform": "play", "id": "com.gyaansetu.app" }
+  ],
   "iarc_rating_id": "",
   "launch_handler": { "client_mode": "focus-existing" },
-  "scope_extensions": [],
-  "file_handlers": [],
+  "scope_extensions": [
+    { "origin": "https://gyaansetu-five.vercel.app" }
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": { "text/*": [".txt"], "application/pdf": [".pdf"] }
+    }
+  ],
   "shortcuts": [
     {
       "name": "Syllabus",
@@ -39,6 +48,13 @@
       "short_name": "Timer",
       "description": "Study timer",
       "url": "/timer",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Whiteboard",
+      "short_name": "Whiteboard",
+      "description": "Draw and doodle",
+      "url": "/whiteboard",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
   ],
