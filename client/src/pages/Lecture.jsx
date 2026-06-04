@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, Play, ChevronLeft, ChevronRight, Loader2, Lightbulb, BookOpen, Target, Volume2, Sparkles } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function Lecture() {
   const navigate = useNavigate();
