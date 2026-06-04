@@ -1,6 +1,7 @@
 {
   "name": "GyaanSetu",
   "short_name": "GyaanSetu",
+  "description": "AI-powered learning platform for CBSE & ICSE students (Classes 4-12). Features AI lectures, video lessons, tests, and gamification.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f97316",
