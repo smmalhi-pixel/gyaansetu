@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Plus, X, BookOpen, Brain, Clock, Pen } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function FAB() {
   const [isOpen, setIsOpen] = useState(false);
