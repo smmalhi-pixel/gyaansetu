@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calculator, Loader2, BookOpen, Copy, CheckCircle } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function Formulas() {
   const navigate = useNavigate();
