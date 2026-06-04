@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, ArrowLeft, Mic, MicOff } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function DoubtSolver() {
   const navigate = useNavigate();
