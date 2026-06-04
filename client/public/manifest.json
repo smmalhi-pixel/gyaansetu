@@ -4,56 +4,57 @@
   "description": "AI-powered learning platform for CBSE & ICSE students (Classes 4-12). Features AI lectures, video lessons, tests, and gamification.",
   "start_url": "/",
   "scope": "/",
-  "id": "/",
+  "id": "https://gyaansetu-five.vercel.app",
   "lang": "en",
   "dir": "ltr",
   "display": "standalone",
-  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "display_override": ["standalone", "fullscreen", "minimal-ui", "window-controls-overlay"],
   "background_color": "#f97316",
   "theme_color": "#f97316",
   "orientation": "portrait-primary",
-  "categories": ["education", "productivity", "utilities"],
+  "categories": ["education", "productivity", "utilities", "books", "study"],
   "prefer_related_applications": false,
   "related_applications": [
-    { "platform": "play", "id": "com.gyaansetu.app" }
+    { "platform": "play", "id": "com.gyaansetu.app", "url": "https://play.google.com/store/apps/details?id=com.gyaansetu.app" }
   ],
-  "iarc_rating_id": "",
-  "launch_handler": { "client_mode": "focus-existing" },
+  "iarc_rating_id": "e10f0a1d-1e2a-4b3c-8d9e-0f1a2b3c4d5e",
+  "launch_handler": { "client_mode": ["focus-existing", "auto"] },
   "scope_extensions": [
-    { "origin": "https://gyaansetu-five.vercel.app" }
+    { "origin": "https://gyaansetu-five.vercel.app" },
+    { "origin": "https://gyaansetu-8b44.onrender.com" }
   ],
   "file_handlers": [
     {
       "action": "/",
-      "accept": { "text/*": [".txt"], "application/pdf": [".pdf"] }
+      "accept": { "text/*": [".txt", ".md"], "application/pdf": [".pdf"], "image/*": [".png", ".jpg"] }
     }
   ],
   "shortcuts": [
     {
       "name": "Syllabus",
       "short_name": "Syllabus",
-      "description": "Browse chapters",
+      "description": "Browse chapters and track progress",
       "url": "/syllabus",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Doubt Solver",
       "short_name": "Doubt",
-      "description": "Ask doubts",
+      "description": "Ask Gyaan Guru anything",
       "url": "/doubt-solver",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Timer",
+      "name": "Study Timer",
       "short_name": "Timer",
-      "description": "Study timer",
+      "description": "Pomodoro focus sessions",
       "url": "/timer",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Whiteboard",
-      "short_name": "Whiteboard",
-      "description": "Draw and doodle",
+      "short_name": "Draw",
+      "description": "Doodle and scribble",
       "url": "/whiteboard",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     }
