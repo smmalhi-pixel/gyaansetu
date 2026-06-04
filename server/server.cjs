@@ -162,7 +162,7 @@ app.post('/api/studyplan/generate', async (req, res) => {
 app.get('/api/youtube/search', async (req, res) => {
   try {
     const { query } = req.query;
-    const YOUTUBE_KEY = 'YOUR_API_KEY_HERE';
+    const YOUTUBE_KEY = process.env.YOUTUBE_API_KEY || 'fallback';
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${encodeURIComponent(query)}&type=video&videoEmbeddable=true&key=${YOUTUBE_KEY}`;
     console.log('YouTube API called');
     const response = await fetch(url);
