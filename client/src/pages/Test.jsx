@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, Clock, Loader2, CheckCircle, XCircle, Trophy, RotateCcw } from 'lucide-react';
-import { t } from '../utils/language';
+import { t } from '../utils/Language';
 
 function Test() {
   const navigate = useNavigate();
