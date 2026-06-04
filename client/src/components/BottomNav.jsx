@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, BookOpen, Brain, User } from 'lucide-react';
-import { getLanguage, t } from '../utils/language';
+import { getLanguage, t } from '../utils/Language';
 
 function BottomNav() {
   const navigate = useNavigate();
