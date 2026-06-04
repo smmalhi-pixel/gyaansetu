@@ -7,8 +7,8 @@
   "id": "https://gyaansetu-five.vercel.app",
   "lang": "en",
   "dir": "ltr",
-  "display": "tabbed",
-  "display_override": ["tabbed", "standalone", "fullscreen"],
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui", "window-controls-overlay", "tabbed"],
   "background_color": "#f97316",
   "theme_color": "#f97316",
   "orientation": "portrait-primary",
@@ -21,34 +21,9 @@
     "new_note_url": "/notes"
   },
   "tabbed_display": {
-    "home_tab": { 
-      "scope": "/", 
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }],
-      "title": "Home"
-    },
-    "new_tab_url": "/syllabus"
+    "home_tab": { "scope": "/", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    "new_tab_url": "/"
   },
-  "widgets": [
-    {
-      "name": "Study Progress",
-      "short_name": "Progress",
-      "description": "Quick view of your study progress",
-      "tag": "study-progress",
-      "template": "custom",
-      "data": { "url": "/" },
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }],
-      "screenshots": [{ "src": "/screenshot1.png", "sizes": "1833x795" }]
-    },
-    {
-      "name": "Quick Timer",
-      "short_name": "Timer",
-      "description": "Start a quick study session",
-      "tag": "quick-timer",
-      "template": "custom",
-      "data": { "url": "/timer" },
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
-    }
-  ],
   "related_applications": [
     { "platform": "play", "id": "com.gyaansetu.app", "url": "https://play.google.com/store/apps/details?id=com.gyaansetu.app" }
   ],
@@ -62,22 +37,64 @@
     { "origin": "https://api.groq.com" }
   ],
   "protocol_handlers": [
-    { "protocol": "web+gyaansetu", "url": "/?q=%s" }
+    {
+      "protocol": "web+gyaansetu",
+      "url": "/?q=%s"
+    }
   ],
   "share_target": {
     "action": "/",
     "method": "POST",
     "enctype": "multipart/form-data",
-    "params": { "title": "title", "text": "text", "url": "url" }
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
   },
+  "widgets": [
+    {
+      "name": "Study Progress",
+      "tag": "progress",
+      "description": "Quick view of your study progress",
+      "ms_ac_template": "custom"
+    }
+  ],
   "file_handlers": [
-    { "action": "/", "accept": { "text/*": [".txt", ".md"], "application/pdf": [".pdf"], "image/*": [".png", ".jpg"] } }
+    {
+      "action": "/",
+      "accept": { "text/*": [".txt", ".md"], "application/pdf": [".pdf"], "image/*": [".png", ".jpg"] }
+    }
   ],
   "shortcuts": [
-    { "name": "Syllabus", "short_name": "Syllabus", "description": "Browse chapters", "url": "/syllabus", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Doubt Solver", "short_name": "Doubt", "description": "Ask doubts", "url": "/doubt-solver", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Timer", "short_name": "Timer", "description": "Study timer", "url": "/timer", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Whiteboard", "short_name": "Draw", "description": "Doodle", "url": "/whiteboard", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "Syllabus",
+      "short_name": "Syllabus",
+      "description": "Browse chapters and track progress",
+      "url": "/syllabus",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Doubt Solver",
+      "short_name": "Doubt",
+      "description": "Ask Gyaan Guru anything",
+      "url": "/doubt-solver",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Study Timer",
+      "short_name": "Timer",
+      "description": "Pomodoro focus sessions",
+      "url": "/timer",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Whiteboard",
+      "short_name": "Draw",
+      "description": "Doodle and scribble",
+      "url": "/whiteboard",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
   ],
   "screenshots": [
     { "src": "/screenshot1.png", "sizes": "1833x795", "type": "image/png", "form_factor": "wide", "label": "Home page" },
