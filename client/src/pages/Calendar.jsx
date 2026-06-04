@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, CalendarDays, Flame, Activity, BookOpen } from 'lucide-react';
-import { getHeatmapData, getStats, markToday } from '../utils/calendar';
-import { t } from '../utils/language';
+import { getHeatmapData, getStats, markToday } from '../utils/Calendar';
+import { t } from '../utils/Language';
 
 function Calendar() {
   const navigate = useNavigate();
