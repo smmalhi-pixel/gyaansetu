@@ -1,6 +1,6 @@
-import { getLevelInfo } from './xp';
-import { getStreak } from './streak';
-import { getWeeklyReport } from './weekly';
+import { getLevelInfo } from './Xp';
+import { getStreak } from './Streak';
+import { getWeeklyReport } from './Weekly';
 
 export const generateReport = (board, classLevel) => {
   const levelInfo = getLevelInfo();
