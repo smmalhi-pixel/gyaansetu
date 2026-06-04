@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BookOpen, Brain, Target, ArrowRight, TrendingUp, Award, BarChart3, Flame, Clock, Medal, X, Layers, Zap, CalendarDays, Calculator, Flag, User, Bell, Pen, Trophy, PieChart, Share2, Shield, Calendar, Music, Hourglass, ClipboardList } from 'lucide-react';
-import { getStreak, getFreezeCount } from '../utils/streak';
-import { checkAndAwardBadges, getAllBadges } from '../utils/badges';
-import { getLevelInfo } from '../utils/xp';
-import { getTodayGoal, setGoal, getGoalProgress } from '../utils/goals';
-import { getTodayQuote } from '../utils/quotes';
+import { getStreak, getFreezeCount } from '../utils/Streak';
+import { checkAndAwardBadges, getAllBadges } from '../utils/Badges';
+import { getLevelInfo } from '../utils/Xp';
+import { getTodayGoal, setGoal, getGoalProgress } from '../utils/Goals';
+import { getTodayQuote } from '../utils/Quotes';
 import { showToast } from '../utils/ToastManager';
-import { playSound } from '../utils/sounds';
+import { playSound } from '../utils/Sounds';
 import Confetti from '../components/Confetti';
 import { CardSkeleton } from '../components/Skeleton';
-import { t } from '../utils/language';
-import { shareProgress } from '../utils/share';
-import { getDaysLeft } from '../utils/countdown';
+import { t } from '../utils/Language';
+import { shareProgress } from '../utils/Share';
+import { getDaysLeft } from '../utils/Countdown';
 
 function Home() {
   const navigate = useNavigate();
