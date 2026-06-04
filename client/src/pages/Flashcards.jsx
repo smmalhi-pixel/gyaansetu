@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Plus, Trash2, RotateCw, ChevronLeft, ChevronRight, Layers } from 'lucide-react';
-import { getFlashcards, addFlashcard, deleteFlashcard } from '../utils/flashcards';
-import { t } from '../utils/language';
+import { getFlashcards, addFlashcard, deleteFlashcard } from '../utils/Flashcards';
+import { t } from '../utils/Language';
 
 function Flashcards() {
   const navigate = useNavigate();
