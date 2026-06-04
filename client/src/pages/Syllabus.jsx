@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Zap, Flame, Star, Moon, Sun, ChevronDown, ChevronUp, CheckCircle, Circle, StickyNote, Save, Play, ClipboardList, FileText, Bookmark, BookmarkCheck } from 'lucide-react';
-import { updateStreak, getStreak } from '../utils/streak';
-import { getTheme, applyTheme } from '../utils/theme';
-import { getTopics, toggleTopic, getTopicProgress, getDefaultTopics } from '../utils/topics';
-import { getNotes, saveNotes, hasNotes } from '../utils/notes';
-import { addXP } from '../utils/xp';
+import { updateStreak, getStreak } from '../utils/Streak';
+import { getTheme, applyTheme } from '../utils/Theme';
+import { getTopics, toggleTopic, getTopicProgress, getDefaultTopics } from '../utils/Topics';
+import { getNotes, saveNotes, hasNotes } from '../utils/Notes';
+import { addXP } from '../utils/Xp';
 import XPPopup from '../components/XPPopup';
-import { showToast } from '../utils/toastManager';
-import { playSound } from '../utils/sounds';
+import { showToast } from '../utils/ToastManager';
+import { playSound } from '../utils/Sounds';
 import { ChapterSkeleton } from '../components/Skeleton';
-import { t } from '../utils/language';
-import { toggleBookmark, isBookmarked } from '../utils/bookmarks';
-import { canUseAI, getRemainingAI, incrementAIUsage } from '../utils/aiLimit';
+import { t } from '../utils/Language';
+import { toggleBookmark, isBookmarked } from '../utils/Bookmarks';
+import { canUseAI, getRemainingAI, incrementAIUsage } from '../utils/AiLimit';
 
 function Syllabus() {
   const navigate = useNavigate();
