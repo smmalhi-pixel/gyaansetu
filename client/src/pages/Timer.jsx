@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Play, Pause, RotateCcw, Clock, Brain, Coffee, CheckCircle } from 'lucide-react';
-import { addSession, getTodaySessions, getWeekSessions } from '../utils/timer';
-import { getTheme } from '../utils/theme';
-import { t } from '../utils/language';
+import { addSession, getTodaySessions, getWeekSessions } from '../utils/Timer';
+import { getTheme } from '../utils/Theme';
+import { t } from '../utils/Language';
 
 function Timer() {
   const navigate = useNavigate();
