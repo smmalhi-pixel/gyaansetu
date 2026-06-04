@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, User, Save, Zap, Flame, Clock, Award, CalendarDays, Shield, Hourglass } from 'lucide-react';
-import { getProfile, saveProfile, getTotalStats, AVATARS } from '../utils/profile';
-import { getLevelInfo } from '../utils/xp';
-import { getLanguage, setLanguage, LANGUAGES } from '../utils/language';
-import { getFreezeCount, addFreeze } from '../utils/streak';
-import { getExam, setExam, removeExam, getDaysLeft } from '../utils/countdown';
+import { getProfile, saveProfile, getTotalStats, AVATARS } from '../utils/Profile';
+import { getLevelInfo } from '../utils/Xp';
+import { getLanguage, setLanguage, LANGUAGES } from '../utils/Language';
+import { getFreezeCount, addFreeze } from '../utils/Streak';
+import { getExam, setExam, removeExam, getDaysLeft } from '../utils/Countdown';
 
 function Profile() {
   const navigate = useNavigate();
