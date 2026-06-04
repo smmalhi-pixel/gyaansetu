@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Target, CheckCircle, Gift, Star } from 'lucide-react';
-import { getTodayChallenge, claimReward } from '../utils/challenges';
-import { addXP } from '../utils/xp';
-import { t } from '../utils/language';
+import { getTodayChallenge, claimReward } from '../utils/Challenges';
+import { addXP } from '../utils/Xp';
+import { t } from '../utils/Language';
 
 function Challenges() {
   const navigate = useNavigate();
