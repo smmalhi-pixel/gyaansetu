@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Plus, CheckCircle, Circle, Trash2, ClipboardList } from 'lucide-react';
-import { getTodos, addTodo, toggleTodo, deleteTodo } from '../utils/todo';
+import { getTodos, addTodo, toggleTodo, deleteTodo } from '../utils/Todo';
 
 function Todo() {
   const navigate = useNavigate();
