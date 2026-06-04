@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Bell, BellOff, Plus, X, Clock, CheckCircle } from 'lucide-react';
-import { getReminders, saveReminders, requestPermission, sendTestNotification, scheduleReminders } from '../utils/reminders';
-import { t } from '../utils/language';
+import { getReminders, saveReminders, requestPermission, sendTestNotification, scheduleReminders } from '../utils/Reminders';
+import { t } from '../utils/Language';
 
 function Reminders() {
   const navigate = useNavigate();
